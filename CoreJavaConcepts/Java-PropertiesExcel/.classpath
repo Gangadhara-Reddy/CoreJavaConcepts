@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/Selenium/Selenium installation Files/Apache POI Jars/POI APIs/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/Selenium installation Files/Apache POI Jars/POI APIs/poi-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/Selenium installation Files/Apache POI Jars/POI APIs/poi-ooxml-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/Selenium installation Files/Apache POI Jars/POI APIs/poi-ooxml-schemas-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/Selenium installation Files/Apache POI Jars/POI APIs/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/Selenium installation Files/Selenium Jars/Latest Jar_3.14.0/selenium-server-standalone-3.14.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

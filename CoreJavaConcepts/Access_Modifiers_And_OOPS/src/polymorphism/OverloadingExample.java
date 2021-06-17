@@ -1,0 +1,73 @@
+package polymorphism;
+
+public class OverloadingExample {
+	
+	/*public static void main(String[] args) {
+		
+	}*/
+	
+	/*public static void main(String[] a) {
+		
+	}*/
+	public static void main(String[] args) {
+		OverloadingExample obj = new OverloadingExample();
+		//obj.add(10,20);
+		//obj.doLogin(128475, "users");
+		//obj.doLogin("agnga", "uers");
+		//obj.add(10,20);
+		//obj.add(1,2);
+		/*byte b1=10;
+		byte b2=20;
+		obj.add(b1,b2);*/
+		
+		obj.addition(10,20,30,40,50);
+		//System.out.println
+	}
+	public void addition(int...a) {
+		int var[]=a;
+		
+	}
+	
+	public void add(int a,double b) {
+		
+	}
+	
+	/*public void add(double a,int b) {
+		
+	}*/
+	
+	public void add(double a,double b) {
+		
+	}
+	
+	/*public void add(byte a,byte b) {
+		
+	}
+
+	public void add(int a,double var) {
+		
+	}
+	
+	public void add(double var,int a) {
+		
+	}*/
+	
+	
+
+	
+	/*public int add(int a,int b) {
+		return 10;
+	}*/
+	
+/*	public void add(int a,int b,int c) {
+		
+	}
+	
+	public void doLogin(int mobileNumber,String password) {
+		
+	}
+	
+	public void doLogin(String username,String password) {
+		
+	}*/
+}

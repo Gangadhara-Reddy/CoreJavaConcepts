@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="myRunners.TestRunner" time="84.227" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\manikanta\Desktop\Assesment"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\manikanta\Desktop\Assesment"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MANIKA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\manikanta\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7091878922928070652.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\manikanta\AppData\AppData\Roaming\npm;C:\Users\manikanta\Desktop\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\manikanta"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="manikanta"/>
+    <property name="java.class.path" value="/C:/Users/manikanta/Desktop/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\manikanta\Desktop\Assesment\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given Launch &quot;https://s.hongleongconnect.my/rib/app/fo/login&quot; on &quot;chrome&quot; browser(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number " classname="Given Launch &quot;https://s.hongleongconnect.my/rib/app/fo/login&quot; on &quot;chrome&quot; browser(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number (Green) | 123456789123 | ebh3c |)" time="0.008"/>
+  <testcase name="When I click on Register for Online Banking button on login page(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number " classname="When I click on Register for Online Banking button on login page(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number (Green) | 123456789123 | ebh3c |)" time="0"/>
+  <testcase name="And select Hong Leong Credit Card option(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number " classname="And select Hong Leong Credit Card option(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number (Green) | 123456789123 | ebh3c |)" time="0"/>
+  <testcase name="And I click on Register Now button from first step(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number " classname="And I click on Register Now button from first step(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number (Green) | 123456789123 | ebh3c |)" time="0"/>
+  <testcase name="When I select Verification ID on second step(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number " classname="When I select Verification ID on second step(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number (Green) | 123456789123 | ebh3c |)" time="0"/>
+  <testcase name="And I enter any &quot;1234567898765432&quot; in principal card number field(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number " classname="And I enter any &quot;1234567898765432&quot; in principal card number field(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number (Green) | 123456789123 | ebh3c |)" time="0"/>
+  <testcase name="And I enter any &quot;1234567892&quot; in temporary id field(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number " classname="And I enter any &quot;1234567892&quot; in temporary id field(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number (Green) | 123456789123 | ebh3c |)" time="0"/>
+  <testcase name="And I select any &quot;New IC Number (Green)&quot;(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number " classname="And I select any &quot;New IC Number (Green)&quot;(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number (Green) | 123456789123 | ebh3c |)" time="0"/>
+  <testcase name="And I enter any &quot;123456789123&quot; in ID number field(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number " classname="And I enter any &quot;123456789123&quot; in ID number field(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number (Green) | 123456789123 | ebh3c |)" time="0"/>
+  <testcase name="When I enter &quot;ebh3c&quot; and click on next button(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number " classname="When I enter &quot;ebh3c&quot; and click on next button(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number (Green) | 123456789123 | ebh3c |)" time="0"/>
+  <testcase name="Then validate the user friendly message on the current step(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number " classname="Then validate the user friendly message on the current step(| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number (Green) | 123456789123 | ebh3c |)" time="0"/>
+  <testcase name="| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number " classname="| https://s.hongleongconnect.my/rib/app/fo/login | chrome | 1234567898765432 | 1234567892 | New IC Number (Green) | 123456789123 | ebh3c |" time="0.568"/>
+</testsuite>

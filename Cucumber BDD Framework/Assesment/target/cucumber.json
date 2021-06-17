@@ -1,0 +1,241 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1375198282,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.beforeMethod()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Test register for banking functionality as new user with valid data",
+        "description": "",
+        "id": "to-test-register-for-online-banking-functionality;test-register-for-banking-functionality-as-new-user-with-valid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 717112924,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 48478595310,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch \"https://s.hongleongconnect.my/rib/app/fo/login\" on \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://s.hongleongconnect.my/rib/app/fo/login",
+                  "offset": 8
+                },
+                {
+                  "val": "chrome",
+                  "offset": 60
+                }
+              ],
+              "location": "steps.launch_on_browser(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10805168286,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Register for Online Banking button on login page",
+            "match": {
+              "location": "steps.i_click_on_Register_for_Online_Banking_button_on_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5195257657,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select Hong Leong Credit Card option",
+            "match": {
+              "location": "steps.select_Hong_Leong_Credit_Card_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3626648671,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Register Now button from first step",
+            "match": {
+              "location": "steps.i_click_on_Register_Now_button_from_first_step()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5382140136,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select Verification ID on second step",
+            "match": {
+              "location": "steps.i_select_Verification_ID_on_second_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1996024869,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter any \"1234567898765432\" in principal card number field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567898765432",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.i_enter_any_in_principal_card_number_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1481926393,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter any \"1234567892\" in temporary id field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567892",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.i_enter_any_in_temporary_id_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3177269496,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select any \"New IC Number (Green)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New IC Number (Green)",
+                  "offset": 14
+                }
+              ],
+              "location": "steps.i_select_any(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1505130567,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter any \"123456789123\" in ID number field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456789123",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.i_enter_any_in_ID_number_field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 637783759,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter \"ebh3c\" and click on next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ebh3c",
+                  "offset": 9
+                }
+              ],
+              "location": "steps.i_enter_and_click_on_next_button(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 907781168,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "validate the user friendly message on the current step",
+            "match": {
+              "location": "steps.validate_the_user_friendly_message_on_the_current_step()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To Test Register for Online Banking functionality",
+    "description": "\r\nDescription: \"Purpose of this feature file is to test the Register for online banking functionality with both valid and invalid details.\"",
+    "id": "to-test-register-for-online-banking-functionality",
+    "keyword": "Feature",
+    "uri": "RegisterForOnlineBanking.feature"
+  }
+]
